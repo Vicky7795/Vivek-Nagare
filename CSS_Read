@@ -1,0 +1,529 @@
+#CSS HOME
+CSS is the language we use to style an HTML document.
+#CSS Introduction
+CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+#CSS Syntax
+A CSS rule consists of a selector and a declaration block.
+#CSS Selectors
+CSS selectors are used to "find" (or select) the HTML elements you want to style. The id selector uses the id attribute of an HTML element to select a specific element. The class selector selects HTML elements with a specific class attribute.
+#CSS Grouping Selectors
+The grouping selector selects all the HTML elements with the same style definitions.
+#How To Add CSS
+1.	External CSS - link to an external .css file
+2.	Internal CSS - use the <style> element in the head section
+3.	Inline CSS - use the style attribute on HTML elements.
+#CSS Comments
+Comments are used to explain the CSS code, and may help when you edit the source code at a later date.
+#CSS Errors
+Errors in CSS can lead to unexpected behavior or styles not being applied correctly. This page shows common CSS mistakes and how to avoid them.
+#CSS Colors
+In CSS, colors are specified by using a predefined color name, or with a RGB, HEX, HSL, RGBA, HSLA value.
+#CSS RCB Colors
+An RGB color value represents RED, GREEN, and BLUE light sources.
+#CSS HEX Colors
+A hexadecimal color is specified with: #RRGGBB.
+#CSS HSL Colors
+HSL tands for hue, saturation, and lightness.In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form.
+#CSS Backgrounds
+The CSS background properties are used to add background effects for elements.
+#CSS Backgrounds Image
+The background-image property specifies an image to use as the background of an element. By default, the image is repeated so it covers the entire element.
+#CSS Backgrounds Image Repeat
+The background-repeat property sets if/how a background image will be repeated. By default, a background-image is repeated both vertically and horizontally.
+#CSS Backgrounds Attachment
+The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page).
+#CSS Backgrounds Shorthand
+To shorten the code, it is possible to specify all the background properties in one single property. This is called a shorthand property.
+#CSS Borders
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+#CSS Borders Width
+The border-width property specifies the width of the four borders.
+#CSS Borders Color
+The border-color property is used to set the color of the four borders.
+#CSS Borders Sides
+We can also use the shorthand border-style property to achieve the same result.
+#CSS Shorthand Border Property
+The border property is a shorthand property for the following individual border properties:
+•	border-width
+•	border-style (required)
+•	border-color
+#CSS Rounded Borders
+The border-radius property is used to add rounded borders to an element.
+#CSS Margins
+The CSS margin properties are used to create space around elements, outside of any defined borders.Margins define the distance between an element's border and the surrounding elements.
+#CSS Margins Collapse
+Margin collapse is when two margins collapse into a single margin.
+Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.
+#CSS Padding
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+#CSS Padding Box-sizing
+The box-sizing property defines how the width and height of an element are calculated.
+#CSS Heights and Width
+The height and width properties are used to set the height and width of an element.
+#CSS Min/ Max Heights and Width 
+The min-width and max-width properties are used to set the minimum and maximum width of an element. The min-height and max-height properties are used to set the minimum and maximum height of an element.
+#CSS Box Model
+The CSS box model is essentially a box that wraps around every HTML element. Every box consists of four parts: content, padding, borders and margins.
+#CSS Outline
+An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".
+#CSS Outline Width
+The outline-width property specifies the width of the outline, and can have one of the following values:
+•	thin (typically 1px)
+•	medium (typically 3px)
+•	thick (typically 5px)
+•	A specific size (in px, pt, cm, em, etc)
+#CSS Outline Color
+The outline-color property is used to set the color of the outline.
+#CSS Outline Shorthand
+The outline property is a shorthand property for setting the following individual outline properties:
+•	outline-width
+•	outline-style (required)
+•	outline-color
+
+#CSS Outline Offset
+The outline-offset property adds a space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+#CSS Text Color
+The color property is used to set the color of the text.
+#CSS Text Alignment
+The text-align property is used to set the horizontal alignment of a text.
+#CSS Text Decoration
+The CSS text-decoration property is used to control the appearance of decorative lines on text.
+#CSS Text Decoration Style
+The CSS text-decoration-style property sets the style of the decoration line.
+#CSS Text Transformation
+The CSS text-transform property is used to control the capitalization of text in an element.
+#CSS Text Spacing
+CSS Text Spacing
+CSS has several properties to control text spacing.
+The following properties:
+•	text-indent
+•	letter-spacing
+•	line-height
+•	word-spacing
+•	white-space
+#CSS Text Shadow
+The text-shadow property adds shadow to text.
+#CSS Fonts Family
+The CSS font-family property specifies the font for an element.
+#CSS Web Safe Fonts 
+Web safe fonts are fonts that are universally installed across all browsers and devices.
+#CSS Fonts Fallbacks
+Below are some commonly used font fallbacks, organized by the 5 generic font families:
+•	Serif
+•	Sans-serif
+•	Monospace
+•	Cursive
+•	Fantasy
+#CSS Fonts Style
+The CSS font-style property specifies the font style for a text.
+#CSS Fonts Size
+The CSS font-size property is used to specify the size of the text/font.
+#CSS Google Fonts
+Google Fonts are free to use, and have more than 1000 fonts to choose from.
+#CSS  Great Fonts Pairing
+Great font pairings are essential to great design!
+#CSS Fonts Property
+The CSS font property is a shorthand property for:
+•	font-style
+•	font-variant
+•	font-weight
+•	font-stretch
+•	font-size
+•	line-height
+•	font-family
+#CSS ICONS: Font Awesome
+To use the Font Awesome icons, go to fontawesome.com, sign in, and get a code to add in the <head> section of your HTML page.
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+#CSS ICONS: Bootstrap
+To use the Bootstrap glyphicons, add the following line inside the <head> section of your HTML page:
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+#CSS ICONS: Google
+To use the Google icons, add the following line inside the <head> section of your HTML page:
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+#CSS Links
+HTML links can be styled with many CSS properties, like color, text-decoration, background-color, font-size, font-weight, font-family, etc.).
+#CSS Link Buttons
+CSS can be used to create HTML link buttons.
+#CSS Lists
+In HTML, there are two main types of lists:
+•	<ul> - unordered lists (list items are marked with bullets)
+•	<ol> - ordered lists (list items are marked with numbers or letters)
+#CSS Tables
+The CSS border property is used to specify the width, style, and color of table borders.
+The border property is a shorthand property for:
+•	border-width - sets the width of the border
+•	border-style - sets the style of the border (required)
+•	border-color - sets the color of the border
+
+#CSS Table Size
+The width and height of a table are defined by the width and height properties.
+#CSS Table Alignment
+The CSS text-align property is used to set the horizontal alignment of the content in <th> or <td>.
+This property can have one of the following values:
+•	left - Aligns the text to the left
+•	right - Aligns the text to the right
+•	center - Centers the text
+#CSS Table Styling
+To add some more space between the inner borders and the content in a table, use the padding property on <td> and <th> elements.
+
+#CSS Responsive Tables
+A responsive table will display a horizontal scrollbar if the screen is too small to display the full content.
+
+#CSS Display Property
+The display property is an important CSS property for controlling layout. It specifies whether an HTML element is treated as a block or an inline element.
+
+#CSS Hide Elements
+display: none; completely hides an element and removes it from the page layout, so it does not take up any space.It is often used with JavaScript to dynamically show or hide elements on user actions like button clicks.
+
+#CSS max-width Property
+The max-width property defines the maximum width of an element.This property prevents the element's width from being larger than the specified value
+#CSS position property
+CSS positioning is about controlling the placement of elements within a web page.With CSS positioning, you can override the normal document flow.
+#CSS Fixed and Absolute Positioning
+position: fixed; keeps an element fixed to the viewport even when scrolling. position: absolute; positions an element relative to its nearest positioned parent and removes it from normal flow.
+#CSS Sticky Positioning
+An element with position: sticky; toggles between a relative and fixed position, depending on the scroll position. A sticky element is positioned relative until a certain scroll position is reached - then it "sticks" in that place (like position:fixed).
+#CSS Position Offsets
+The top, right, bottom, and left properties are used to position elements. These properties only work on positioned elements (elements with position set to relative, absolute, fixed, or sticky).
+#CSS Z-index Property
+The z-index property specifies the stack order of positioned elements.The stack order defines which element should be placed in front or behind other elements.
+#CSS The Overflow Property
+The CSS overflow property controls what happens to content that is too big to fit into an area.It specifies whether to clip the content or to add scrollbars when the content of an element is too big.
+#CSS overflow-x and overflow-y
+The overflow-x and overflow-y properties allow you to control overflow behavior independently for horizontal and vertical directions.
+#CSS Float
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+#CSS clear and clearfix Hack
+The clear property specifies what should happen with the element that is NEXT to a floating element. The clearfix hack involves the ::after pseudo-element, and is used to ensure that the parent container properly encloses its floated child elements.
+
+#CSS display: inline-block
+The display: inline-block property combines the features of both inline and block elements.An element with display: inline-block will appear on the same line as other inline or inline-block elements. In addition, you can set the width, height, margin-top, and margin-bottom properties for the element (like block elements).
+#CSS Center Align
+With CSS, you can center elements (horizontally, vertically, or both) with several methods, depending on the type of element.
+#CSS Horizontal align
+CSS horizontal alignment can be done using margin: auto; to center block elements, text-align: center; to center text, display: block; with auto margins to center images, and float or position: absolute; to align elements left or right.
+#CSS Vertical Align
+CSS vertical alignment can be achieved using Flexbox (display: flex; with justify-content: center; and align-items: center;), Grid (display: grid; with place-items: center;), or by using position: absolute; with transform: translate(-50%, -50%); to center elements both vertically and horizontally.
+#CSS Combinators
+A combinator is something that defines the relationship between two or more selectors. A CSS selector can contain more than one selector. Between the selectors, we can include a combinator, to create a more specific selection. 
+There are four different combinators in CSS:
+•	Descendant combinator (space)
+•	Child combinator (>)
+•	Next sibling combinator (+)
+•	Subsequent-sibling combinator (~)
+#CSS Pseudo-Classes
+A CSS pseudo-class is a keyword that can be added to a selector, to define a style for a special state of an element.
+#CSS Interactive Pseudo-classes
+Interactive pseudo-classes apply styles based on user interaction with elements.Here we use the :hover pseudo-class and the :focus pseudo-class.
+#CSS structural Pseudo-Classes
+Structural pseudo-classes select elements based on their position in the document tree.
+#CSS Pseudo Elements
+A CSS pseudo-element is a keyword that can be added to a selector, to style a specific part of an element.
+#CSS Text Pseudo Elements
+Text pseudo-elements allow you to style specific parts of text content, such as the first line or first letter.
+#CSS Pseudo Content Elements
+Content pseudo-elements allow you to insert content before or after elements, style list markers, and more.
+#CSS Opacity
+The opacity property specifies the opacity/transparency of an element.
+The opacity property can take a value from 0.0 - 1.0:
+•	0.0 - The element will be completely transparent
+•	0.5 - The element will be 50% transparent
+•	1.0 - Default. The element will be fully opaque
+#CSS Navigation Bars
+Having an easy-to-use navigation is important for any website!CSS navigation bars are an important component of web design. Navigation bars helps users to easily navigate between different sections of a website.
+#CSS Vertical Navigation Bars
+In a vertical navigation bar, the navigation links are stacked vertically (on top of each other), and is typically aligned along the left or right side of a webpage.The basics of a vertical navigation bar is an unordered list (<ul>), with list items (<li>), each holding a link (<a>),
+#CSS Horizonatal Navigation Bars
+In a horizontal navigation bar, the navigation links are stacked horizontally (next to each other), and is typically aligned on the top of a webpage.The basics of a horizontal navigation bar is an unordered list (<ul>), with list items (<li>), each holding a link (<a>).
+#CSS Dropdowns
+CSS dropdowns are used to display a list of options or content when a user clicks or hover over an element, like a button or a navigation link. A CSS dropdown consists of a trigger element (like <div>, <button>, <p>, <a>, etc.).
+#CSS Advanced Dropdowns
+This page covers advanced CSS dropdown techniques including alignment, images, and navbar integration.
+#CSS Image Gallery
+A CSS image gallery is a collection of images that is displayed in an organized, and often responsive way, on a web page.
+#CSS Image Sprites
+An image sprite is a collection of various small images put into one larger image file, called a "sprite image".
+A sprite image is typically arranged in a grid-like way.
+#CSS Attribute Selectors
+CSS attribute selectors are used to select and style HTML elements with a specific attribute or attribute value, or both.
+#CSS Advanced Attribute Selectors
+Advanced attribute selectors match elements based on partial attribute values using special operators.
+#CSS Forms
+CSS is used to style HTML forms. The look of an HTML form can be greatly improved with CSS.
+
+#CSS Form Inputs
+With CSS, you can style most of the different input types, like text fields, password fields, checkboxes, radio buttons, and file inputs. You can also style input labels and form buttons.
+
+#CSS Form Focus and Icons
+By default, some browsers will add a blue outline around the input when it gets focus (clicked on). You can remove this behavior by adding outline: none; to the input.
+
+#CSS Form Elements
+CSS form elements like textarea, select, and buttons can be styled using properties such as padding, border, and background-color; use resize: none; to disable textarea resizing and media queries to make forms responsive.
+#CSS Form Styling
+The width property is used to set the width of an input field. The default width of an HTML input text field, is 20 characters.
+
+#CSS Counters
+With CSS counters, you can create dynamic numbering of elements (like headings, sections, or list items) without using JavaScript. CSS counters are "variables" maintained by CSS, and their values can be incremented (or decremented) by CSS rules.
+#CSS Nested Counters
+You can create multiple counters for different levels of numbering. The following example creates one counter for the page (named "section") and one counter for each <h1> element (named "subsection").
+
+#CSS Units
+CSS has several different units for expressing a length. Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.
+#CSS Absolute Units
+Absolute units are fixed, and the length expressed in any of these will appear exactly that size. Absolute units do not change when the screen size change, and are not recommended for websites. However, they can be used if the output medium is known, such as for print layout.
+#CSS  Relative Units
+Relative units specify a length relative to another length (like parent element, root element, or viewport). Relative length units scale better between different screen sizes.
+#CSS Inheritance
+CSS inheritance is about what happens if no value is specified for a property on an element. If no value is specified for a property, the value can either be inherited from the parent element, or be set to its initial (default) value. 
+#CSS Specificity
+CSS specificity is an algorithm that determines which style declaration is ultimately applied to an element. If two or more CSS rules point to the same element, the declaration with the highest specificity will "win", and that style will be applied to the HTML element.
+#CSS Specificity Hierarchy
+Each type of CSS selector has a position in the specificity hierarchy, and the selector types carry different "weights".
+#CSS The !important Rule
+The !important rule is used to give the value of a specific property the highest priority.The !important rule will override ALL previous styling rules for that specific property on that element! The !important keyword is added to the end of a CSS declaration, before the semicolon.
+#CSS Math Functions
+CSS math functions allow mathematical expressions to be used as property values.
+•	calc()
+•	max()
+•	min()
+•	clamp()
+#CSS Performance Optimization
+Optimizing CSS makes your website load faster and run more smoothly; which also results in a better user experience.
+#CSS Accessibility Styling
+A website should be designed to ensure good accessibility for all users, including those with disabilities. CSS accessibility styling is about using good styling technics to improve the visual clarity, navigation, and overall user experience. 
+#CSS Website Layout
+A website is often divided into multiple sections, like a top header, navigation menu, main content, and a footer.
+#CSS Rounded Corners
+The CSS border-radius property is used to create rounded corners for elements.
+#CSS Border Images
+CSS border-image Property
+The border-image property allows you to define an image to be used as the border around an element, instead of the normal border.
+#CSS Multiple Backgrounds
+CSS allows you to add multiple background images for an element, through the background-image property.
+#CSS Background Size
+The background-size property allows you to specify the size of background images. The background size can be specified in lengths, percentages, or by using one of the keywords: auto, contain, or cover.
+#CSS Background Origin
+The CSS background-origin property specifies where the background image is positioned.
+#CSS Background Clip
+The CSS background-clip property defines how far the background (color, image, or gradient) should extend within an element.
+
+#CSS Colors
+CSS supports 140+ color names, HEX values, RGB values, RGBA values, HSL values, HSLA values, and opacity.
+#CSS Colors Keywords
+CSS has some special predefined color keywords that can be used with properties like color, background-color and border-color.
+The special keywords are:
+•	transparent
+•	currentcolor
+•	inherit
+
+#CSS Gradients
+The CSS gradient functions let you display smooth transitions between two or more colors within an element.
+#CSS Radial Gradients
+The CSS radial-gradient() function creates a radial gradient.A radial gradient defines a color transition that goes goes out from a central point.A radial gradient requires at least two color stops. Color stops are the colors you want to render smooth transitions among.
+#CSS conic Gradients
+The CSS conic-gradient() function creates a conic gradient. A conic gradient is a gradient with color transitions rotated around a center point. To create a conic gradient you must define at least two colors.
+#CSS Shadow Effects
+The CSS text-shadow property applies a shadow to text. In its simplest use, you only specify the horizontal and the vertical shadow. In addition, you can add a shadow color and blur effect.
+#CSS Box Shadow
+The CSS box-shadow property is used to apply one or more shadows to an element.In its simplest use, you can only specify the horizontal and the vertical offset of the shadow.
+#CSS Text Effects
+CSS has some properties to handle text overflow, word wrapping, line breaking rules and writing modes.
+•	text-overflow - Specifies how to handle overflowed content
+•	word-wrap - Allows long words to be able to be broken and wrap onto the next line
+•	word-break - Specifies line breaking rules
+•	writing-mode - Specifies whether lines of text are laid out horizontally or vertically
+#CSS Custom Fonts
+The CSS @font-face rule allows you to define and load custom fonts for use on a webpage.
+#CSS 2D Transforms
+The CSS transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, and skew elements.
+#CSS 2D Transform Scale
+The scale() function increases or decreases the size of an element (according to the parameters given for the width and height).
+#CSS 2D Transforms Skew
+The skewX() function skews an element along the X-axis by the given angle. The skewY() function skews an element along the Y-axis by the given angle.
+#CSS 3D Transforms
+The CSS transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, and skew elements. Mouse over the elements below to see the difference between a 2D and a 3D transformation.
+#CSS Transitions
+CSS transitions allows you to change property values smoothly, over a given duration.
+#CSS Transitions Timing
+This page covers the CSS transition timing function and delay properties. The transition-timing-function property specifies the speed curve of the transition effect.
+#CSS Animations
+An animation lets an element gradually change from one style to another.You can change as many CSS properties you want, as many times as you want.To use CSS animation, you must specify some keyframes for the animation.Keyframes hold what styles the element will have at certain times.
+#CSS Animations Timing
+This page covers the CSS animation timing properties: delay, iteration count, and timing function. The animation-delay property specifies a delay for the start of an animation.
+#CSS Animations Properties
+The animation-direction property specifies whether an animation should be played forwards, backwards or in alternate cycles.
+#CSS Tooltip
+A CSS tooltip is used to specify extra information about something when the user moves the mouse pointer over an element.
+#CSS Tooltip Arrows
+To create an arrow that should appear from a specific side of the tooltip, add "empty" content after tooltip, with the pseudo-element class ::after together with the content property. The arrow itself is created using borders. This will make the tooltip look like a speech bubble.
+#CSS Styling Images
+You can use the border-radius property to create rounded images.
+#CSS Image Effects
+The opacity property specifies the opacity/transparency of an element.
+#CSS Image Hover Overlays
+CSS image hover overlays create effects like fade, slide, and flip using properties such as opacity, transform, and transition; images can be flipped horizontally with transform: scaleX(-1);, and responsive galleries are built using media queries to adjust image layout on different screen sizes.
+#CSS Responsive Modal Images
+A modal image gives a user the ability to display a larger version of an image, without navigating away from the current page. When a user clicks on a modal image, it shows a popup window that appears on top of the main content of the webpage, often with a semi-transparent background. The modal must be closed by the user, typically with a "close" button or an "X" sign in top-right corner.
+#CSS Centering Images
+With CSS, you can center images with several methods. An image can be centered horizontally, vertically, or both.
+#CSS Image Filter Effects
+The CSS filter property is used to add visual effects (like blur and saturation) to elements.
+#CSS Image Shapes
+With CSS it is easy to shape (clip) images to circles, ellipses and polygons.
+#CSS Object-fit Property
+The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
+#CSS object-position Property
+The CSS object-position property is used together with the object-fit property to specify how an <img> or <video> should be positioned with x/y coordinates within its container.
+#CSS Masking
+CSS masking allows you to create a mask layer to place over an element to partially or fully hide portions of the element.The CSS mask-image property specifies a mask layer image.The mask layer image can be a PNG image, an SVG image, a CSS gradient, or an SVG <mask> element. 
+#CSS Gradient Mask Layers
+CSS gradients can also be used as the mask layer image.  
+#CSS SVG Mask Layers
+The SVG <mask> element can be used to apply a mask to an image. we use the SVG <mask> element to create different mask layers for an image.
+#CSS Styling Buttons
+CSS buttons can be styled using properties like background-color, color, border, padding, font-size, border-radius, box-shadow, and cursor; buttons can be created using <button>, <input>, or styled <a> elements, and customized with different colors, sizes, borders, and rounded corners.
+#CSS Button Hover Effects
+The CSS :hover pseudo-class is used to change the style of a button when you mouse over it.
+#CSS Button Groups
+To create a group of buttons, wrap the buttons in a <div> element, and add display: flex; to the <div> element. Also add flex-wrap: wrap;, to let the buttons wrap on a new line on small screens.
+#CSS Pagination
+Pagination is typically a series of links, wrapped in an unordered list (<ul>). Each link represents an individual page number. In addition there are "previous" and "next" controls.
+#CSS Pagination Styles
+Use the :hover selector to change the background color of each page link when the user hovers over them.
+#CSS Multiple Columns
+The CSS Multi-column Layout Module allows easy definition of multiple columns of text - just like in newspapers.
+#CSS Column Rules
+The CSS column-rule-style property specifies the style of the vertical rule between columns.
+#CSS User Interface
+CSS User Interface properties include resize and outline-offset; resize controls whether an element can be resized (horizontal, vertical, both, or none), while outline-offset adds space between an element’s border and its outline without affecting its size.
+#CSS Variables – var() Function
+The var() function is used to insert the value of a CSS variable.
+CSS variables have access to the DOM, which means that you can create variables with local or global scope, change the variables with JavaScript, and change the variables based on media queries.
+#CSS Overriding Variables
+CSS variables can be overridden by redefining them inside a specific selector, where the local variable value takes priority over the global (:root) variable within that scope; you can also create new local variables for use in a single section, and access them using the var() function.
+#CSS Variables and JavaScript
+CSS variables can be accessed and modified using JavaScript because they are part of the DOM; you can retrieve a variable’s value using getComputedStyle() and change it dynamically using style.setProperty(), while the var() function is used in CSS to apply variable values.
+#CSS Variables in Media Queries
+CSS variables can be changed inside media queries to apply different values based on screen size; by redefining variables (like --fontsize or --primary-bg-color) inside an @media rule, styles automatically update for different devices while still using the var() function.
+#CSS @property Rule
+The CSS @property rule is used to define custom CSS properties with type constraints, default values, and inheritance behavior directly in the stylesheet without JavaScript; it ensures data validation, provides fallback values, and allows better control—including enabling smooth animations like gradients.
+#CSS Box Sizing
+The CSS box-sizing property controls how an element’s width and height are calculated; by default, padding and border are added to the set size, but with box-sizing: border-box;, padding and border are included inside the specified width and height, making layout sizing more predictable.
+#CSS Media Queries
+CSS media queries use the @media rule to apply different styles based on device type or screen features like width, height, or orientation; they are essential for creating responsive web pages that adapt to different screen sizes.
+#CSS Flexbox
+Flexbox is a layout model for arranging items (horizontally or vertically) within a container, in a flexible and responsive way. Flexbox makes it easy to design a flexible and responsive layout, without using float or positioning.
+#CSS Flex Container
+A flex container is created using display: flex; or inline-flex; and supports properties like flex-direction (row, column, etc.), flex-wrap, flex-flow, justify-content, align-items, and align-content to control the layout and alignment of flex items.
+#CSS Flexbox Justify Content
+justify-content is used in Flexbox to align items horizontally inside a flex container. It controls the space between and around items along the main axis (left to right by default).
+#CSS Flexbox Align
+In Flexbox, align-items aligns items vertically on the cross-axis, and align-content aligns multiple wrapped lines. For perfect centering, use both justify-content: center; and align-items: center;.
+#CSS Flex Items
+In CSS Flexbox, the direct children of a flex container are called flex items. You can control them using properties like order to change their position, flex-grow and flex-shrink to control resizing, flex-basis to set the initial size, flex as a shorthand property, and align-self to adjust the alignment of a specific item inside the container.
+#CSS Responsive Flexbox
+CSS Responsive Flexbox uses media queries to change layout based on screen size. You can adjust flex-direction or flex values to create responsive designs for different devices.
+#CSS Grid Layout
+CSS Grid Layout is a two-dimensional layout system that allows you to create web designs using rows and columns. It uses a grid container (display: grid) and grid items (its direct children) to build complex and responsive layouts easily, without using floats or positioning.
+#CSS Grid Container
+A CSS Grid container is an element with display: grid; or inline-grid;. Its direct children become grid items and are arranged in rows and columns.
+#CSS Grid Tracks
+CSS Grid tracks define the size of rows and columns using grid-template-columns and grid-template-rows. You can use values like px, %, auto, fr, repeat(), and minmax() to control layout size and flexibility.
+#CSS Grid Gap
+CSS Grid gaps create space between rows and columns in a grid layout. You can use row-gap, column-gap, or the shorthand gap property to control spacing between grid items.
+#CSS Grid Container –Align Grid Content
+In CSS Grid, justify-content aligns the grid horizontally, align-content aligns it vertically, and place-content is a shorthand for both. These properties work when the grid content is smaller than the container.
+#CSS Grid Items
+CSS Grid items are the direct children of a grid container. You can control their position and size using properties like grid-column, grid-row, grid-column-start, and grid-row-start, allowing items to span multiple rows or columns.
+#CSS Naming Grid Items
+In CSS Grid, you can name items using grid-area and arrange them with grid-template-areas. This helps create simple and clear page layouts like header, menu, main, and footer.
+#CSS Grid Items-Alignment
+CSS Grid alignment controls how items are placed inside their cells. justify-self aligns horizontally, align-self aligns vertically, and place-self sets both together.
+#CSS Grid Items-Order
+The CSS order property changes the visual order of grid items without changing their HTML structure. It only affects how items appear on the screen, not the DOM order, which is important for accessibility.
+#CSS 12-Column Grid Layout
+A 12-column grid splits a page into 12 equal parts using CSS Grid. It helps create flexible and responsive layouts by letting elements span multiple columns.
+#CSS @supports Rule
+The @supports rule lets you check if the browser supports a specific CSS property or value, and to define fallback styles if the feature is not supported. This is useful for applying styles only when the browser can handle them.
+#Responsive web Design
+Responsive Web Design makes websites look good on all devices like desktops, tablets, and phones. It uses the viewport meta tag, flexible layouts, and media queries to adjust the design for different screen sizes.
+#Responsive web Design – The Viewport
+The viewport is the visible area of a web page on a user’s device. It controls how the page is displayed and scaled on different screen sizes.
+#Responsive web Design – Building a grid View
+A responsive grid view uses CSS Grid to divide a page into sections like header, menu, content, and footer. Using box-sizing: border-box; ensures padding and borders are included in the element’s total size.
+#Responsive web Design – Media Queries
+CSS media queries use the @media rule to apply styles based on screen size or device features, helping create responsive layouts for different devices.
+#Responsive web Design – Images
+Responsive images resize automatically to fit different screens using width: 100% and height: auto. You can also use max-width: 100%, media queries, or the <picture> element to display suitable images for different devices.
+#Responsive web Design – Videos
+Responsive videos can scale to fit different screen sizes using width: 100% or max-width: 100% with height: auto.
+#Responsive web Design – Frameworks
+Responsive frameworks like W3.CSS and Bootstrap help developers create websites that automatically adjust to different screen sizes. They provide ready-made styles and grid systems, making it easier and faster to build mobile-friendly and responsive web pages.
+#Responsive web Design Templates
+W3.CSS offers free, responsive website templates for blogs, portfolios, stores, and more, which you can easily customize and use in your projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
