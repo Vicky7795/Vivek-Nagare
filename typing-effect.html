@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Animation Demo</title>
+    <!-- Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --accent-glow: #3b82f6;
+            --text-white: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-dark);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .typing-container {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-weight: 500;
+            color: var(--text-white);
+            text-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+            letter-spacing: 0.02em;
+            line-height: 1.4;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        #typing-text {
+            /* Text gradient */
+            background: linear-gradient(to right, #3b82f6, #22d3ee);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .cursor {
+            display: inline-block;
+            margin-left: 5px;
+            width: 3px;
+            height: 1em;
+            background-color: var(--accent-glow);
+            vertical-align: middle;
+            animation: blink 0.8s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Hero Text Specific Design */
+        .hero-name {
+            font-size: 4rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="typing-container">
+        <div id="typing-text"></div><span class="cursor">|</span>
+    </div>
+
+    <script>
+        const textElement = document.getElementById('typing-text');
+        const phrases = [
+            "Full Stack Developer",
+            "MERN Stack Developer",
+            "Java Developer",
+            "Turning ideas into real-world applications."
+        ];
+        
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
+
+        function type() {
+            const currentPhrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                // Erasing text
+                textElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+                typingSpeed = 50; // Faster erasing
+            } else {
+                // Typing text
+                textElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+                typingSpeed = 100; // Normal typing speed
+            }
+
+            // Word completed
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                isDeleting = true;
+                typingSpeed = 2000; // Pause at the end
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                typingSpeed = 500; // Short pause before starting new word
+            }
+
+            setTimeout(type, typingSpeed);
+        }
+
+        // Start animation
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(type, 1000); // Initial delay
+        });
+    </script>
+</body>
+</html>
